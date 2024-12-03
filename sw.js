@@ -1,10 +1,10 @@
 const CACHE_NAME = 'pwa-sederhana-v1';
 const urlsToCache = [
-    '/',
-    '/index.html',
-    '/about.html',
-    '/styles.css',
-    '/app.js'
+    './',
+    './index.html',
+    './about.html',
+    './styles.css',
+    './app.js'
 ];
 
 self.addEventListener('install', (event) => {
